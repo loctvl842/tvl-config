@@ -44,41 +44,21 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 
 ### ALACRITTY
 
-|                                                   |                        ALACRITTY                        |                                               |
+|                                                   |                                                         |                                               |
 | :-----------------------------------------------: | :-----------------------------------------------------: | :-------------------------------------------: |
 |                      Dracula                      |                         Gruvbox                         |                   One Dark                    |
 |   <img src="./gallery/alacritty/dracula.png" />   |      <img src="./gallery/alacritty/gruvbox.png" />      | <img src="./gallery/alacritty/onedark.png" /> |
 |                    Tokyo Night                    |                    Tokyo Night Storm                    |                                               |
 | <img src="./gallery/alacritty/tokyo-night.png" /> | <img src="./gallery/alacritty/tokyo-night-storm.png" /> |                                               |
 
-`Dracula`
-![tvl image](./gallery/alacritty/dracula.png)
-
-`Gruvbox`
-![tvl image](./gallery/alacritty/gruvbox.png)
-
-`One Dark`
-![tvl image](./gallery/alacritty/onedark.png)
-
-`Tokyo night`
-![tvl image](./gallery/alacritty/tokyo-night.png)
-
-`tokyo-night-storm`
-![tvl image](./gallery/alacritty/tokyo-night-storm.png)
-
 ### NEOVIM
 
-`Tokyo night`
-![tvl image](./gallery/neovim/tokyo-night.png)
-
-`Gruvbox`
-![tvl image](./gallery/neovim/gruvbox.png)
-
-`Darkplus`
-![tvl image](./gallery/neovim/darkplus.png)
-
-`Palenight`
-![tvl image](./gallery/neovim/palenight.png)
+|                                                |                                              |
+| :--------------------------------------------: | :------------------------------------------: |
+|                    Darkplus                    |                  Palenight                   |
+|  <img src="./gallery/neovim/darkplus.png" />   | <img src="./gallery/neovim/palenight.png" /> |
+|                  Tokyo Night                   |                   Gruvbox                    |
+| <img src="./gallery/neovim/tokyo-night.png" /> |  <img src="./gallery/neovim/gruvbox.png" />  |
 
 ## ROFI
 
