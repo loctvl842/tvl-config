@@ -16,4 +16,7 @@ stow *
 ```
 
 Or just select what you want
+
+```
 stow polybar # just my polybar
+```
