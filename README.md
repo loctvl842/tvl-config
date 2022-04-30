@@ -3,8 +3,8 @@
 - [INSTALLATION](#INSTALLATION)
 - [IMAGE AND USAGE](#iamge-and-usage)
   - [POLYBAR](#polybar)
-  - [ALACRITTY](#polybar)
-  - [NEOVIM](#polybar)
+  - [ALACRITTY](#alacritty)
+  - [NEOVIM](#neovim)
 
 ## INSTALLATION
 
