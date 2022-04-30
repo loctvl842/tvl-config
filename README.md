@@ -44,7 +44,7 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 
 ### ALACRITTY
 
-|                                                   |                                                         |                                               |
+|                     ALACRITTY                     |
 | :-----------------------------------------------: | :-----------------------------------------------------: | :-------------------------------------------: |
 |                      Dracula                      |                         Gruvbox                         |                   One Dark                    |
 |   <img src="./gallery/alacritty/dracula.png" />   |      <img src="./gallery/alacritty/gruvbox.png" />      | <img src="./gallery/alacritty/onedark.png" /> |
