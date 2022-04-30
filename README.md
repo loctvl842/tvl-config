@@ -29,6 +29,11 @@ stow polybar # just my polybar
 
 ## IMAGES AND USAGE
 
+All the below theme can be changed easily by pressing `WINDOW + s`
+![tvl demo gif](./gallery/changeTheme.gif)
+
+In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
+
 ### ALACRITTY
 
 `Dracula`
@@ -59,6 +64,3 @@ stow polybar # just my polybar
 ![tvl white](./gallery/polybar/white.png)
 `Colorful`
 ![tvl colorful](./gallery/polybar/colorful.png)
-
-All the above theme can be changed easily by pushing `Window + s`
-![tvl demo gif](./gallery/changeTheme.gif)
