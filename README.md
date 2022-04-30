@@ -1,5 +1,7 @@
 # MY DOTFILE CONFIGURATION
 
+- [INSTALLATION](#INSTALLATION)
+
 ## INSTALLATION
 
 You will need `git` and GNU `stow`
