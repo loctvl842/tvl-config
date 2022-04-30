@@ -1,0 +1,3 @@
+SRC_DIR="$HOME/.config/rofi/center/custom/src"
+APPEARANCE_DIR="$HOME/.config/rofi/center/custom/appearance"
+LOGO_DIR="$HOME/.config/rofi/center/custom/logos"

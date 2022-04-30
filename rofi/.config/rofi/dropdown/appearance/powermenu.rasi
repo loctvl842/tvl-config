@@ -1,0 +1,26 @@
+
+window {
+  background-color: @background;
+  border: 2;
+  border-radius: 10;
+  border-color: @bright-magenta;
+  padding: 0 0 0 8;
+  width: 300;
+  location: northwest;
+  x-offset: 10;
+  y-offset: 40;
+}
+
+listview {
+  fixed-height: 0;
+  spacing: 0;
+  scrollbar: false;
+  padding: 10 8 10 0;
+  lines: 5;
+}
+
+@import "../styles/tokyo-night.rasi"
+
+inputbar {
+  enabled: false;
+}

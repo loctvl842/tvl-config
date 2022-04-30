@@ -1,0 +1,39 @@
+/* Confirm Dialog */
+
+@import "styles/tokyo-night.rasi"
+
+* {
+  background-color:       @background;
+  text-color:             @foreground-confirm;
+	font: "FantasqueSansMono Nerd Font 18";
+}
+
+window {
+  width: 300px;
+  padding: 20px;
+  border: 0.4% 0.0% 0.4% 0.0%;
+  border-radius: 10px;
+  border-color: @border;
+  location: center;
+  y-offset: -2em;
+}
+
+mainbox {
+  children: [prompt, entry];
+  background-color: transparent;
+  orientation: horizontal;
+}
+
+inputbar {
+  background-color: transparent;
+}
+
+prompt {
+  background-color: transparent;
+}
+
+entry {
+  expand: true;
+  text-color: @foreground-confirm;
+  background-color: transparent;
+}

@@ -1,0 +1,298 @@
+window:
+  dimensions:
+   columns: 160
+   lines: 60
+  position:
+   x: 1
+   y: 1
+  padding:
+   x: 5
+   y: 5
+  opacity: 1.0
+  dynamic_padding: true
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: none
+  Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  startup_mode: Windowed
+  # Window title
+  title: Alacritty
+  dynamic_title: true
+  Window class (Linux/BSD only):
+  class:
+    instance: Alacritty
+    general: Alacritty
+  # GTK theme variant (Linux/BSD only)
+  #
+  # Override the variant of the GTK theme. Commonly supported values are `dark`
+  # and `light`. Set this to `None` to use the default theme variant.
+  gtk_theme_variant: None
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+
+############################################
+#########    ONE DARK   ####################
+############################################
+
+schemes:
+  one-dark: &one-dark
+    # Default colors
+    primary:
+      # default background #282c34
+      background: '#282c34'
+      foreground: '#abb2bf'
+    # Normal colors
+    normal:
+      # NOTE: Use '#131613' for the `black` color if you'd like to see
+      # black text on the background.
+      black:   '#282c34'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#abb2bf'
+    # Bright colors
+    bright:
+      black:   '#5c6370'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#ffffff'
+
+############################################
+#########   DRACULA   ######################
+############################################
+
+schemes:
+  dracula: &dracula
+    # Default colors
+    primary:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+    # Normal colors
+    normal:
+      black:   '#000000'
+      red:     '#ff5555'
+      green:   '#50fa7b'
+      yellow:  '#f1fa8c'
+      blue:    '#caa9fa'
+      magenta: '#ff79c6'
+      cyan:    '#8be9fd'
+      white:   '#bfbfbf'
+    # Bright colors
+    bright:
+      black:   '#575b70'
+      red:     '#ff6e67'
+      green:   '#5af78e'
+      yellow:  '#f4f99d'
+      blue:    '#caa9fa'
+      magenta: '#ff92d0'
+      cyan:    '#9aedfe'
+      white:   '#e6e6e6'
+
+############################################
+#########   GRUVBOX   ######################
+############################################
+
+schemes:
+  gruvbox: &gruvbox
+    # Default colors
+    primary:
+      # hard contrast: background = '#1d2021'
+      # background: '#282828'
+      background: '#1d2021'
+      # soft contrast: background = '#32302f'
+      foreground: '#ebdbb2'
+    # Normal colors
+    normal:
+      black:   '#282828'
+      red:     '#cc241d'
+      green:   '#98971a'
+      yellow:  '#d79921'
+      blue:    '#458588'
+      magenta: '#b16286'
+      cyan:    '#689d6a'
+      white:   '#a89984'
+    # Bright colors
+    bright:
+      black:   '#928374'
+      red:     '#fb4934'
+      green:   '#b8bb26'
+      yellow:  '#fabd2f'
+      blue:    '#83a598'
+      magenta: '#d3869b'
+      cyan:    '#8ec07c'
+      white:   '#ebdbb2'
+
+
+############################################
+#########   PALENIGHT   ####################
+############################################
+  
+schemes:
+  palenight: &palenight
+    # Default colors
+    primary:
+      background: '#292d30'
+      foreground: '#959dcb'
+    # Normal colors
+    normal:
+      black:   '#292d3e'
+      red:     '#f07178'
+      green:   '#c3e88d'
+      yellow:  '#ffcb6b'
+      blue:    '#82aaff'
+      magenta: '#c792ea'
+      cyan:    '#89ddff'
+      white:   '#959dcb'
+    # Bright colors
+    bright:
+      black:   '#676e95'
+      red:     '#f07178'
+      green:   '#c3e88d'
+      yellow:  '#ffcb6b'
+      blue:    '#82aaff'
+      magenta: '#c792ea'
+      cyan:    '#89ddff'
+      white:   '#ffffff'
+    indexed_colors:
+      - { index: 16, color: '#f78c6c' }
+      - { index: 17, color: '#ff5370' }
+      - { index: 18, color: '#444267' }
+      - { index: 19, color: '#32374d' }
+      - { index: 20, color: '#8796b0' }
+      - { index: 21, color: '#959dcb' }
+
+############################################
+#########    TOKYO NIGHT  ##################
+############################################
+schemes:
+  # Tokyo Night theme, based on both:
+  #   https://github.com/ghifarit53/tokyonight-vim
+  #   https://github.com/enkia/tokyo-night-vscode-theme
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: '#1a1b26'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#b1b6de'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: '#24283b'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#9699a8'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+#####################################################################
+# SET THEME: Choose ONE color schemes from those in above list ######
+#####################################################################
+# Available themes are:
+# *one-dark
+# *gruvbox
+# *dracula
+# *tokyo-night
+# *tokyo-night-storm
+
+colors: *tokyo-night
+
+#####################################################################
+#    END OF COLORSCHEMS       #######################################
+#####################################################################
+
+#####################################################################
+#    FONT CONFIGURATIONS      #######################################
+#####################################################################
+font:
+  normal:
+    family: FiraCode
+    style: Regular
+  bold:
+    family: Fira Code
+    style: Bold
+  italic:
+    family: Hasklig
+    style: Italic
+  bold_italic:
+    family: Hasklig
+    style: Bold Italic
+
+  # Point size
+  # default sze: 12.5
+  # i3 size: 9
+  size: 9
+
+  offset:
+   x: 0
+   y: 0
+  glyph_offset:
+   x: 0
+   y: 0
+
+cursor:
+  style:
+    Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Block
+    Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: Off

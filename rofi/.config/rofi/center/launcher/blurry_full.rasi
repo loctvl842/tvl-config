@@ -1,0 +1,128 @@
+configuration {
+	font: "Fira Code 15";
+  show-icons: true;
+	icon-theme: "Fira Code 10";
+  display-drun: "";
+  drun-display-format: "{name}";
+  disable-history: false;
+	sidebar-mode: false;
+}
+
+* {
+  background: #1a1b2680;
+  background-alt: #00000000;
+  foreground-input: #ff9e64;
+  background-input: #444b6ae0;
+  background-selected: #bb9af780;
+  foreground: #a9b1d6;
+  accent: #3DAEE966;
+  border-input: #b700ff;
+}
+
+window {
+  background-color: @background;
+  text-color: @foreground;
+	border: 0px;
+	border-color: @border;
+  border-radius: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+prompt {
+  enabled: true;
+	padding: 0.30% 1% 0% -0.5%;
+	background-color: transparent;
+	text-color: @foreground-input;
+	font: "Hack Nerd Font 15";
+  text-color: transparent;
+}
+
+entry {
+  background-color: transparent;
+  text-color: @foreground-input;
+  placeholder-color: @foreground-input;
+  expand: true;
+  horizontal-align: 0.5;
+  /* placeholder: "=========> Search hộ <========="; */
+  padding: 0.20% 1% 0% 0%;
+  blink: true;
+}
+
+inputbar {
+	children: [ prompt, entry ];
+  text-color: @foreground-input;
+  expand: false;
+  width: 50%;
+  border-radius: 10px;
+  border: 3;
+	border-color: @border-input;
+  margin: 0% 25% 0% 25%;
+  padding: 1.5%;
+  background-color: @background-input;
+}
+
+listview {
+  background-color:               transparent;
+  columns:                        8;
+  lines:                          4;
+  spacing:                        0%;
+  cycle:                          false;
+  dynamic:                        true;
+  layout:                         vertical;
+}
+
+textbox-prompt-colon {
+  expand: false;
+  padding: 1% 0% 10% 29%;
+	text-color:	@foreground;
+	font: "Fira Code 28";
+  background-color: transparent;
+  text-color: @foreground-input;
+	str: "  𝓣 𝓥 𝓛   ";
+}
+
+mainbox {
+  background-color: @background;
+  border: 0% 0% 0% 0%;
+  border-radius: 0% 0% 0% 0%;
+  border-color: @accent;
+  children: [ inputbar, listview, textbox-prompt-colon] ;
+  spacing: 5%;
+  padding: 10% 12.5% 0% 12.5%;
+}
+
+element {
+  background-color:               @background-alt;
+  text-color:                     @foreground;
+  orientation:                    vertical;
+  border-radius:                  0%;
+  padding:                        2.5% 0% 2.5% 0%;
+}
+
+element-icon {
+  background-color: transparent;
+  text-color: inherit;
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+  size: 80px;
+  border: 0px;
+}
+
+element-text {
+  background-color: transparent;
+  text-color: inherit;
+  expand: true;
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+  margin: 0.5% 0.5% -0.5% 0.5%;
+	font: "Fira Code 12";
+}
+
+element selected {
+  background-color: @background-selected;
+  text-color: #e0af68;
+  border: 0% 0% 0% 0%;
+  border-radius: 20px;
+  border-color: @accent;
+}

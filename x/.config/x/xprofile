@@ -1,0 +1,27 @@
+# notificationw
+dunst &
+
+# faster keyboard
+setxkbmap -option caps:escape
+xset r rate 210 40
+
+# Random Photo Every Login
+feh --bg-fill --randomize ~/Pictures/wallpaper/* &
+
+# Network Manager Applet
+# [ERROR]
+# nm-applet --indicator &
+
+# Compositor
+picom -b
+
+# Hide mouse when typing
+xbanish &
+
+# clipboard manager
+copyq &
+
+# bluetooth
+blueman-applet &
+
+flameshot &

@@ -1,0 +1,26 @@
+@import "styles/tokyo-night.rasi"
+
+window {
+  background-color: @background;
+  border: 2;
+  border-radius: 10;
+  border-color: @bright-magenta;
+  padding: 0 0 0 8;
+  width: 300;
+  location: center;
+}
+
+listview {
+  fixed-height: 0;
+  spacing: 0;
+  scrollbar: false;
+  padding: 10 8 10 0;
+  lines: 4;
+}
+
+textbox-prompt-colon{
+  /* background-image: url("../logos/neovim.png"); */
+	str: " Neovim  ";
+  margin: 15 0 0 0;
+  padding: 0 0 0 60;
+}
