@@ -1,7 +1,7 @@
 # MY DOTFILE CONFIGURATION
 
 - [INSTALLATION](#INSTALLATION)
-- [IMAGE AND USAGE](#image-and-usage)
+- [IMAGES AND USAGE](#images-and-usage)
   - [POLYBAR](#polybar)
   - [ALACRITTY](#alacritty)
   - [NEOVIM](#neovim)
