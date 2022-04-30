@@ -52,3 +52,10 @@ stow polybar # just my polybar
 ![tvl image](./gallery/neovim/darkplus.png)
 `Palenight`
 ![tvl image](./gallery/neovim/palenight.png)
+
+### POLYBAR
+
+`White`
+![tvl white](./gallery/polybar/white.png)
+`Colorful`
+![tvl colorful](./gallery/polybar/colorful.png)
