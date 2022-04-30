@@ -34,13 +34,18 @@ All the below theme can be changed easily by pressing `WINDOW + s`
 
 In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 
+### POLYBAR
+
+`White` Color from Macbook
+![tvl white](./gallery/polybar/white.png)
+
+`Colorful`
+![tvl colorful](./gallery/polybar/colorful.png)
+
 ### ALACRITTY
 
-`Dracula`
-![tvl image](./gallery/alacritty/dracula.png)
-
-`Gruvbox`
-![tvl image](./gallery/alacritty/gruvbox.png)
+`Dracula` `Gruvbox`
+![tvl image](./gallery/alacritty/dracula.png) ![tvl image](./gallery/alacritty/gruvbox.png)
 
 `One Dark`
 ![tvl image](./gallery/alacritty/onedark.png)
@@ -65,10 +70,10 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 `Palenight`
 ![tvl image](./gallery/neovim/palenight.png)
 
-### POLYBAR
+## ROFI
 
-`White` Color from Macbook
-![tvl white](./gallery/polybar/white.png)
+There are two positions for `rofi` include `center` and `dropdown` (using for polybar)
 
-`Colorful`
-![tvl colorful](./gallery/polybar/colorful.png)
+### DROPDOWN
+
+`app-menu` using for `dropdown powermenu`
