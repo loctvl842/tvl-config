@@ -44,6 +44,12 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 
 ### ALACRITTY
 
+<p align="center">
+  <img alt="Light" src="./gallery/alacritty/dracula.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./gallery/alacritty/gruvbox.png" width="45%">
+</p>
+
 `Dracula` | `Gruvbox`
 ![tvl image](./gallery/alacritty/dracula.png) | ![tvl image](./gallery/alacritty/gruvbox.png)
 
