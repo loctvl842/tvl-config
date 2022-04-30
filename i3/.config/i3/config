@@ -284,7 +284,7 @@ bindsym $mod+c exec copyq menu
 ################### Polybar ##########################
 # => Multipart
 # => Single
-set $theme Single
+set $theme Multipart
 exec_always --no-startup-id $HOME/.config/polybar/$theme/launch.sh
 
 ################## Restart picom after restart i3 ###############
