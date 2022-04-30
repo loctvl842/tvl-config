@@ -31,4 +31,24 @@ stow polybar # just my polybar
 
 ### ALACRITTY
 
+`Dracula`
 ![tvl image](./gallery/alacritty/dracula.png)
+`Gruvbox`
+![tvl image](./gallery/alacritty/gruvbox.png)
+`One Dark`
+![tvl image](./gallery/alacritty/onedark.png)
+`Tokyo night`
+![tvl image](./gallery/alacritty/tokyo-night.png)
+`tokyo-night-storm`
+![tvl image](./gallery/alacritty/tokyo-night-storm.png)
+
+### NEOVIM
+
+`Tokyo night`
+![tvl image](./gallery/neovim/tokyo-night.png)
+`Gruvbox`
+![tvl image](./gallery/neovim/gruvbox.png)
+`Darkplus`
+![tvl image](./gallery/neovim/darkplus.png)
+`Palenight`
+![tvl image](./gallery/neovim/palenight.png)
