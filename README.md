@@ -55,7 +55,10 @@ stow polybar # just my polybar
 
 ### POLYBAR
 
-`White`
+`White` Color from Macbook
 ![tvl white](./gallery/polybar/white.png)
 `Colorful`
 ![tvl colorful](./gallery/polybar/colorful.png)
+
+All the above theme can be changed easily by pushing `Window + s`
+![tvl demo gif](./gallery/changeTheme.gif)
