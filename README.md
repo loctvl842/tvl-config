@@ -44,6 +44,8 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 
 ### ALACRITTY
 
+<img src="./gallery/alacritty/dracula.png" /> | <img src="./gallery/alacritty/gruvbox.png" />
+
 `Dracula`
 ![tvl image](./gallery/alacritty/dracula.png)
 
@@ -76,7 +78,4 @@ In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 ## ROFI
 
 There are two positions for `rofi` include `center` and `dropdown` (using for polybar)
-
-### DROPDOWN
-
-`app-menu` using for `dropdown powermenu`
+Both `center` and `dropdown` folder are devided into 2 main folder which are `src` folder (using for run rofi with special options) and `appearance` folder (using for setting `theme` for each table appear)
