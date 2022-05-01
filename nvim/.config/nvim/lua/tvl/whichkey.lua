@@ -87,9 +87,9 @@ local mappings = {
 	["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
 	["w"] = { "<cmd>w!<CR>", "Save" },
 	["q"] = { "<cmd>q!<CR>", "Quit" },
-	["d"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+	["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
-	["r"] = { "<cmd>source ~/.config/nvim/lua/tvl/colorscheme.lua<CR>", "Source Colorscheme" },
+	["r"] = { "<cmd>source ~/.config/nvim/lua/tvl/colorscheme.lua<CR>", "ReSource Colorscheme" },
 	["f"] = {
 		"<cmd>lua require('telescope.builtin').find_files()<cr>",
 		"Find files",

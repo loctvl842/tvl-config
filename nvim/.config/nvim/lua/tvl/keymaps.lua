@@ -69,6 +69,9 @@ keymap("n", ";", ":noh<CR>", opts)
 ------------------- Formatter ---------------------------------
 keymap("n", "<C-f>", ":lua vim.lsp.buf.formatting()<CR>", opts)
 
+------------------- Close buffer quickly ----------------------
+keymap("n", "bd", ":Bdelete<CR>", opts)
+
 ------------------- Go to buffer quickly ----------------------
 keymap("n", "<leader>1", "<Cmd>BufferLineGoToBuffer 1<CR>", opts)
 keymap("n", "<leader>2", "<Cmd>BufferLineGoToBuffer 2<CR>", opts)

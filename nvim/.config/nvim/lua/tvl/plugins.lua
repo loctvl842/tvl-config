@@ -66,7 +66,7 @@ return packer.startup(function(use)
 	use("lunarvim/darkplus.nvim")
 	use("drewtempelmeyer/palenight.vim")
 	use("folke/tokyonight.nvim")
-	use("morhetz/gruvbox")
+	use("ellisonleao/gruvbox.nvim")
 	use("tiagovla/tokyodark.nvim")
 
 	-- cmp plugins

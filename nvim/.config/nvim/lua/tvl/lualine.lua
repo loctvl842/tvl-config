@@ -33,7 +33,7 @@ local mode = {
 
 local filetype = {
 	"filetype",
-	icons_enabled = true,
+	icons_enabled = false,
 	icon = nil,
 }
 
@@ -80,12 +80,7 @@ lualine.setup({
 		lualine_b = { branch, diagnostics },
 		lualine_c = {},
 		-- lualine_x = { "encoding", "fileformat", "filetype" },
-		lualine_x = {
-			-- diff,
-			spaces,
-			encoding,
-			filetype,
-		},
+		lualine_x = { diff, spaces, encoding, filetype },
 		lualine_y = { location },
 		lualine_z = { progress },
 	},

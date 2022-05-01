@@ -20,10 +20,10 @@ project.setup({
 	--- order matters: if one is not detected, the other is used as fallback. You
 	--- can also delete or rearangne the detection methods.
 	-- detection_methods = { "lsp", "pattern" }, -- NOTE: lsp detection will get annoying with multiple langs in one project
-	detection_methods = { "pattern", "=src", "!.git/package.json" },
+	detection_methods = { "lsp", "pattern" },
 
 	---@usage patterns used to detect root dir, when **"pattern"** is in detection_methods
-	patterns = { "package.json", ".git", "_darcs", ".hg", ".bzr", ".svn", "Makefile" },
+	patterns = { ".git", "_darcs", ".hg", ".bzr", ".svn", "Makefile", "package.json" },
 
 	---@ Show hidden files in telescope when searching for files in a project
 	show_hidden = false,
@@ -37,7 +37,7 @@ project.setup({
 
 	-- @usage Don't calculate root dir on specific directories
 	-- Ex: { "~/.cargo/*", ... }
-	exclude_dirs = {},
+	-- exclude_dirs = { "~/.config/nvim" },
 
 	---@type string
 	---@usage path to store the project history for use in telescope
