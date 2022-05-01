@@ -99,7 +99,7 @@ bindsym $mod+Shift+v split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+space fullscreen toggle
+bindsym $mod+space fullscreen toggle ;exec ./.config/i3/fix/polybar.sh
 
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
@@ -247,7 +247,7 @@ set $gn         #88b090
 set $rd         #E06C75
 set $tvl-yellow #ffbb00
 set $tvl-purple #b700ff
-set $tvl #bb9af7
+set $tvl   #bb9af7
 
 # set some nice colors      border            background        text                            indicator               child_border
 client.focused              $tvl       $tvl       $tx                             $tvl             $tvl
@@ -255,39 +255,37 @@ client.unfocused            $bg               $bg               $ia client.focus
 client.urgent               $rd               $rd               $txi
 
 ###################### Chang language #############################
-bindcode $mod+34 exec ./.config/i3/changelanguage/run.sh
+bindcode $mod+34 exec ./.config/i3/src/language.sh
 
 ###################### Caplock #############################
-bindcode Shift+66 exec ./.config/i3/toggleCapLock/run.sh
+bindcode Shift+66 exec ./.config/i3/src/caplock.sh
+
+################## Restart picom after restart i3 ###############
+exec_always ~/.config/i3/src/picom-restart.sh
+
 
 ###################### screenshot #################################
 bindsym $mod+Shift+s exec flameshot gui
 
-# ==================================================================
-# ====================== ROFI MAPPING ==============================
-# ==================================================================
-
 #################### Rofi powermenu #######################
-bindsym $mod+p exec ~/.config/rofi/center/powermenu/powermenu.sh
-#################### Rofi wlan #######################
-bindsym $mod+w exec ~/.config/rofi/center/wlan/wlan.sh
-#################### Rofi launcher #######################
-bindsym $mod+d exec ~/.config/rofi/center/launcher/launcher.sh
-#################### Rofi custom ######################
-bindsym $mod+s exec ~/.config/rofi/center/custom/custom.sh
+bindsym $mod+p exec ~/.config/rofi/powermenu/powermenu.sh
 
-#====================================================================
+#################### Rofi wlan #######################
+bindsym $mod+w exec ~/.config/rofi/wlan/wlan.sh
+
+#################### Rofi launcher #######################
+bindsym $mod+d exec ~/.config/rofi/launcher/launcher.sh
 
 #################### Clipboard manager ###################
 bindsym $mod+c exec copyq menu
+
+#################### Custom polybar ######################
+bindsym $mod+s exec ~/.config/rofi/custom/custom.sh
 
 ################### Polybar ##########################
 # => Multipart
 # => Single
 set $theme Multipart
 exec_always --no-startup-id $HOME/.config/polybar/$theme/launch.sh
-
-################## Restart picom after restart i3 ###############
-exec_always ~/.config/i3/picom/picom-restart.sh
 
 # focus_follows_mouse no

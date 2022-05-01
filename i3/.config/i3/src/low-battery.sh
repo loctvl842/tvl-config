@@ -2,9 +2,7 @@ current_battery_percentage=$(upower -i $(upower -e | grep BAT) | grep --color=ne
 
 if [ $current_battery_percentage -le 20 ]
 then
-    notify-send "Battery low!" "Sạc pin đi, Lộc!" --icon="~/Pictures/battery/images.png" -t 60000 -a "System"
-    paplay ./charging.ogg
-
+    notify-send "Battery low!" "Sạc pin dùm cái, Lộc!" --icon="~/Pictures/battery/images.png" -t 60000 -a "System"
 # elif [ $current_battery_percentage -eq 100 ]
 # then
 #     if [ $checkNotifyFullBattery==false ]
