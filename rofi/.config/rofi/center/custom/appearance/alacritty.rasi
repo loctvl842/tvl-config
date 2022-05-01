@@ -14,7 +14,7 @@ listview {
   spacing: 0;
   scrollbar: false;
   padding: 10 8 10 0;
-  lines: 5;
+  lines: 6;
 }
 
 textbox-prompt-colon{
