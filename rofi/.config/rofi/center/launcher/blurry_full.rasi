@@ -16,7 +16,7 @@ configuration {
   background-selected: #bb9af780;
   foreground: #a9b1d6;
   accent: #3DAEE966;
-  border-input: #b700ff;
+  border-input: #bb9af7;
 }
 
 window {
