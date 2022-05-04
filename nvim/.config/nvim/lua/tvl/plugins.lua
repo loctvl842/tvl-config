@@ -68,6 +68,7 @@ return packer.startup(function(use)
 	use("folke/tokyonight.nvim")
 	use("ellisonleao/gruvbox.nvim")
 	use("tiagovla/tokyodark.nvim")
+	use("LunarVim/Colorschemes")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin

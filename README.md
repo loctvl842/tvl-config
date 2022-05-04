@@ -35,8 +35,8 @@ stow polybar # just my polybar
 
 ## IMAGES AND USAGE
 
-All the below theme can be changed easily by pressing `WINDOW + s`
-![tvl demo gif](./gallery/changeTheme.gif)
+All the below theme can be changed easily by pressing `WINDOW + s` (map in i3)
+![tvl demo gif](./gallery/demo.gif)
 
 In `nvim`, you have to press `SPACE + r` to reset theme if theme doesn't change
 

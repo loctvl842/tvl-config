@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  Colorschemes = {
+    loaded = true,
+    path = "/home/loc/.local/share/nvim/site/pack/packer/start/Colorschemes",
+    url = "https://github.com/LunarVim/Colorschemes"
+  },
   ["Comment.nvim"] = {
     loaded = true,
     path = "/home/loc/.local/share/nvim/site/pack/packer/start/Comment.nvim",

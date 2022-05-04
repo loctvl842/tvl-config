@@ -10,7 +10,7 @@ function change_theme() {
 MENU="$(rofi -sep "|" \
         -dmenu -i -p 'System' \
         -theme $APPEARANCE_DIR/alacritty.rasi \
-        <<< "One Dark|Gruvbox|Dracula|Palenight|Tokyo Night|Tokyo Night Storm")"
+        <<< "One Dark|Gruvbox|Dracula|Palenight|Tokyo Night|Tokyo Night Storm|Darkplus")"
 
   case "$MENU" in
       *'One Dark') change_theme "one-dark" "One Dark";;
@@ -19,4 +19,5 @@ MENU="$(rofi -sep "|" \
       *'Palenight') change_theme "palenight" "Palenight";;
       *'Tokyo Night') change_theme "tokyo-night" "Tokyo Night";;
       *'Tokyo Night Storm') change_theme "tokyo-night-storm" "Tokyo Night Storm";;
+      *'Darkplus') change_theme "darkplus" "Darkplus";;
   esac
